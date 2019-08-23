@@ -1,3 +1,10 @@
+""
+" @section Introduction, intro
+" @stylized ctrlp-menu
+" @library
+" @order intro version dicts functions exceptions layers api faq
+" ctrlp-menu is a plugin for ctrlp, which can read the menu informations from
+" unite and denite.
 
 let g:ctrlp_menu_name = ''
 
@@ -11,4 +18,6 @@ function! s:menu(...) abort
     endif
 endfunction
 
+""
+" List all menus or open specific menu
 command! -nargs=? CtrlPMenu call s:menu(<f-args>)

@@ -1,0 +1,22 @@
+*ctrlp-menu.txt*	menu support for ctrlp
+wsdjeg                                               *ctrlp-menu* *ctrlp-menu*
+
+==============================================================================
+CONTENTS                                                 *ctrlp-menu-contents*
+  1. Introduction...........................................|ctrlp-menu-intro|
+  2. Commands............................................|ctrlp-menu-commands|
+
+==============================================================================
+INTRODUCTION                                                *ctrlp-menu-intro*
+
+ctrlp-menu is a plugin for ctrlp, which can read the menu informations from
+unite and denite.
+
+==============================================================================
+COMMANDS                                                 *ctrlp-menu-commands*
+
+:CtrlPMenu                                                        *:CtrlPMenu*
+  List all menus or open specific menu
+
+
+vim:tw=78:ts=8:ft=help:norl:
