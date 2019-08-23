@@ -21,6 +21,7 @@ endif
 
 function! ctrlp#menu#init()
   let s:menu_name = g:ctrlp_menu_name
+  let s:register_var.lname = 'menu:' . s:menu_name
   let s:menu_action = {}
   let menu = get(g:unite_source_menu_menus, s:menu_name, {})
   if has_key(menu, 'command_candidates')

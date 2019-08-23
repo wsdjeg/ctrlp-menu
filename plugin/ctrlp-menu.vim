@@ -6,6 +6,8 @@ function! s:menu(...) abort
     let g:ctrlp_menu_name = get(a:000, 0, '')
     if !empty(g:ctrlp_menu_name)
         call ctrlp#init(ctrlp#menu#id())
+    else
+        call ctrlp#init(ctrlp#listmenu#id())
     endif
 endfunction
 
