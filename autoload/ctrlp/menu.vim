@@ -29,9 +29,9 @@ function! ctrlp#menu#init()
       call add(rt, item[0])
       call extend(s:menu_action, {item[0] : item[1]}, 'force')
     endfor
-    return join(rt, "\n")
+    return rt
   else
-    return ""
+    return []
   endif
 endfunc
 
