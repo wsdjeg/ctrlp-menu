@@ -1,5 +1,5 @@
 *ctrlp-menu.txt*	menu support for ctrlp
-wsdjeg                                               *ctrlp-menu* *ctrlp-menu*
+wsdjeg                                                            *ctrlp-menu*
 
 ==============================================================================
 CONTENTS                                                 *ctrlp-menu-contents*
